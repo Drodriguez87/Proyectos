@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanzamiento de Moneda</title>
+    <style>
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Lanzamiento de Moneda</h1>
+    <button onclick="lanzarMoneda()">Lanzar Moneda</button>
+    <div id="resultado"></div>
+
+    <script>
+        function lanzarMoneda() {
+            // Generar un número aleatorio (0 o 1)
+            const resultado = Math.floor(Math.random() * 2);
+
+            // Obtener el elemento div de resultado
+            const resultadoDiv = document.getElementById('resultado');
+
+            // Mostrar la cara o la cruz de la moneda según el resultado
+            if (resultado === 0) {
+                resultadoDiv.innerHTML = '<p>¡Cara!</p>';
+                resultadoDiv.innerHTML += '<img src="cara.jpg" alt="Cara">';
+            } else {
+                resultadoDiv.innerHTML = '<p>¡Cruz!</p>';
+                resultadoDiv.innerHTML += '<img src="cruz.jpg" alt="Cruz">';
+            }
+        }
+    </script>
+
+</body>
+</html>
