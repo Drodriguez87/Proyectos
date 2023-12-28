@@ -11,19 +11,13 @@
     <link rel="shortcut icon" href="<?= media();?>/images/uploads/favicon.png"> 
     <title><?= $data['page_tag'] ?></title>
     <!-- Bootstrap CSS -->
-    
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/bootstrap-grid.css">
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/bootstrap-reboot.css">
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/main.css">
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/style.css">
     <!-- Font-icon css-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    
   </head>
   <body class="app sidebar-mini">
     <!-- Navbar-->
