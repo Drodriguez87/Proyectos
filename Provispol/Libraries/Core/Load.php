@@ -1,6 +1,6 @@
 <?php
 
-    
+    $controller = ucwords($controller);
     $controllerFile = "Controllers/".$controller.".php";
     if(file_exists($controllerFile))
     {

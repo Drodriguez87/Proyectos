@@ -7,7 +7,7 @@
 	date_default_timezone_set('America/Bogota');
 
     const DB_HOST = "localhost";
-    const DB_NAME = "despachos";
+    const DB_NAME = "bd_provispol";
     const DB_USER = "root";
     const DB_PASSWORD = "";
     const DB_CHARSET = "charset=utf8";
