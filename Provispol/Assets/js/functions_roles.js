@@ -1,7 +1,11 @@
 var tableRoles;
 
 document.addEventListener('DOMContentLoaded', function(){
+<<<<<<< HEAD
     tableRoles = $('#tableRoles').dataTable({
+=======
+    tableRoles = $('#tableRoles').dataTable( {
+>>>>>>> 8382d1ec36af96ecec6ccb28b4a609111cadcbd9
 		"aProcessing":true, 
 		"aServerSide":true,
         "language": {
@@ -25,14 +29,20 @@ document.addEventListener('DOMContentLoaded', function(){
         "order":[[0,"desc"]]  
     });
 
+<<<<<<< HEAD
     var formRol = document.querySelector("#formRol");
 
+=======
+    //NUEVO ROL
+    var formRol = document.querySelector("#formRol");
+>>>>>>> 8382d1ec36af96ecec6ccb28b4a609111cadcbd9
     formRol.onsubmit = function(e) {
         e.preventDefault();
 
         var strNombre = document.querySelector("#txtNombre").value;
         var strDescripcion = document.querySelector("#txtDescripcion").value;
         var intStatus = document.querySelector("#listStatus").value;
+<<<<<<< HEAD
 
         if (strNombre === '' || strDescripcion === '' || intStatus === '') {
             
@@ -59,6 +69,16 @@ document.addEventListener('DOMContentLoaded', function(){
                     Swal.fire("Error", objData.msg , "error");
                 }  
             }
+=======
+        if(strNombre == '' || strDescripcion == '' || intStatus == '')
+        {
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Something went wrong!",
+                footer: '<a href="#">Why do I have this issue?</a>'
+              });
+>>>>>>> 8382d1ec36af96ecec6ccb28b4a609111cadcbd9
         }
     }
 });

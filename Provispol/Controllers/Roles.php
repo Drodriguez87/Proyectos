@@ -34,6 +34,7 @@
             echo json_encode($arrData,JSON_UNESCAPED_UNICODE);
             die();
         }
+<<<<<<< HEAD
 
         public function setRol(){
             $strRol = strClean($_POST['txtNombre']);
@@ -51,6 +52,8 @@
             echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
             die();
         }
+=======
+>>>>>>> 8382d1ec36af96ecec6ccb28b4a609111cadcbd9
         
     }
 ?>

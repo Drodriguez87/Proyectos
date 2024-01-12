@@ -2,11 +2,14 @@
 
     class RolesModel extends Mysql
     {
+<<<<<<< HEAD
         public $intIdrol;
         public $strRol;
         public $strDescripcion;
         public $intStatus;
 
+=======
+>>>>>>> 8382d1ec36af96ecec6ccb28b4a609111cadcbd9
         public function __construct()
         {
             parent::__construct();
@@ -18,6 +21,7 @@
             $request = $this->select_all($sql);
             return $request;
         }
+<<<<<<< HEAD
         public function insertRol(string $rol, string $descripcion, int $status){
 
             $return = "";
@@ -42,6 +46,8 @@
             
 
         }
+=======
+>>>>>>> 8382d1ec36af96ecec6ccb28b4a609111cadcbd9
     }
 
 ?>
