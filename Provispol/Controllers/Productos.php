@@ -7,7 +7,7 @@
         }
         public function productos()
         {   
-            $data['page_id'] = 2;
+            $data['page_id'] = 20;
             $data['page_tag'] = "Productos";
             $data['page_title'] = "Productos en Venta";
             $data['page_name'] = "productos";
