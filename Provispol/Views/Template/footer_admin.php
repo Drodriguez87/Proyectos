@@ -6,17 +6,23 @@
     <script src="<?= media(); ?>/js/popper.min.js"></script>
     <script src="<?= media(); ?>/js/bootstrap.min.js"></script>
     <script src="<?= media(); ?>/js/main.js"></script>
-    <script src="<?= media(); ?>/js/fontawesome.js"></script>
+    <script src="<?= media();?>/js/fontawesome.js"></script>
     <script src="<?= media(); ?>/js/functions_admin.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="<?= media(); ?>/js/plugins/pace.min.js"></script>
     <!-- Page specific javascripts-->
-     <script type="text/javascript" src="<?= media(); ?>/js/plugins/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    
+    <!-- jQuery desde CDN -->
+    
 
     <!-- Data table plugin-->
     <script type="text/javascript" src="<?= media(); ?>/js/plugins/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="<?= media(); ?>/js/plugins/dataTables.bootstrap.min.js"></script>
-
+    <script src="<?= media(); ?>/js/bootstrap-toggle.js"></script>
+    <script src="<?= media(); ?>/js/bootstrap-toggle.min.js"></script>
+    <script src="<?= media(); ?>/js/bootstrap2-toggle.js"></script>
+    <script src="<?= media(); ?>/js/bootstrap2-toggle.min.js"></script>
     <script src="<?= media(); ?>/js/functions_roles.js"></script>
 
   </body>

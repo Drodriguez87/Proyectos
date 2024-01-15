@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function(){
             {"data":"status"},
             {"data":"options"}
         ],
-        "resonsieve":"true",
+        "responsive":"true",
         "bDestroy": true,
         "iDisplayLength": 10,
         "order":[[0,"desc"]]  
